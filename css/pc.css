@@ -1,0 +1,22 @@
+body,html{
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    color: inherit;
+    background-color: #eee;
+}
+#title{
+	background-image:url(../img/backtitle.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    color: inherit;
+    background-color: #eee;
+}
