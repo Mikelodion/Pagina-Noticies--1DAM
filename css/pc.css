@@ -1,18 +1,11 @@
-body,html{
+
+body,html {
 	background-image:url(../img/background.jpg);
-	background-repeat:no-repeat;
-	background-position: center; 
-	-webkit-background-size: 100%;
-   	-moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-	height:100%;
-	padding:0px;
+ 	background-repeat:repeat-y;
+	background-position: center fixed; 
+ 	padding:0px;
 	margin:0px;
+  	z-index: -1;   
 }
 .jumbotron {
     padding-top: 30px;
@@ -22,10 +15,10 @@ body,html{
     background-color: #eee;
 }
 #title{
-	background-image:url(../img/backtitle.jpg);
-	background-repeat:no-repeat;
-	background-size:cover;
-	padding-top: 30px;
+	background-image: url(../img/backtitle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
     padding-bottom: 30px;
     margin-bottom: 0px;
     color: inherit;
@@ -33,7 +26,9 @@ body,html{
 }
 
 #title img{
-padding: 0px 8px;
+	margin-left: 0;
+    padding: 2px 6px;
+    width: 20%;
 }
 #noticias{
     position: relative;
@@ -44,16 +39,61 @@ padding: 0px 8px;
 .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 1%;
+    margin-left: 1%;
 }
 #destacadas {
 	width: calc(100% - 380px);
-    margin-right: -15px;
-    margin-left: -15px;
 }
 #normales{
 	width: 100%;
-	margin-right: -15px;
-	margin-left: -15px;
+}
+.thumbnail{
+	background-image:url(../img/noticias.jpg);
+	border: 3px solid #1f1e1c;
+    border-radius: 40px;
+}
+h3{
+	color: #ebdec2 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #101010;
+}
+.navbar-default {
+	color:#fff;
+    background-color: #1f1e1c;
+    border-color: #c0c8df;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: none; 
+    border: 3px solid #c0c8df;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index:1000;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.thumbnail p{
+	color: #ebdec2;
+    font-size: 17px;
+}
+#publicidadpc{
+	background-color: black;
+    position: absolute;
+    float: right;
+    width: 25%;
+    margin-top: 100px;
+    right: 25px;
+    height: 70%;
 }
