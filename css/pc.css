@@ -97,3 +97,29 @@ h3{
     right: 25px;
     height: 70%;
 }
+.footer{
+    float: left;
+    margin-top: 100px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding: 50px 0 50px;
+    text-align: left;
+    background-color:#232222;
+    color: #8c8c8c;
+}
+
+.footer img{
+    width: 2%;
+    margin-right: 2%;
+}
+#copyr{
+    margin-right:2%;
+}
+
+i{
+    margin-right: 1%
+}
