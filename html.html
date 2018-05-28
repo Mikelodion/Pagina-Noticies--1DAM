@@ -16,49 +16,61 @@
 		<meta property="og:title" content="Fornite News">
 		<meta property="og:image" content="">
 		<meta property="og:description" content="Web sobre las noticias mas actuales de fortnite. ¡No te pierdas ningún nuevo acontecimiento!">
+		<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-default">
-	  		<div class="container-fluid">
-	    		<div class="navbar-header">
-	      			<a class="navbar-brand" href="#">FortNews</a>
-	    		</div>
-	    		<ul class="nav navbar-nav">
-			      <li class="active"><a href="html.html">Home</a></li>
-			      <li><a href="#">News</a></li>
-			      <li><a href="#">Juego</a></li>
-			      <li><a href="#">EpicGames</a></li>
-	    		</ul>
-	  		</div>
+		<div id="cargando"><img src="img/loading.gif" alt="Foto cargando"></div>
+		<nav class="navbar navbar-inverse">
+			<div id="navcont-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>  
+					</button>
+					<div><a class="navbar-brand" href="html.html">FortNews</a></div>
+				</div>
+				<div class="navbar-collapse collapse" id="myNavbar" aria-expanded="false" style="height: 1px;">
+					<ul class="nav navbar-nav">
+			      		<li class="active"><a href="html.html">Home</a></li>
+			      		<li><a href="#">News</a></li>
+			      		<li><a href="#">Juego</a></li>
+			      		<li><a href="https://www.epicgames.com/site/">EpicGames</a></li>
+	    			</ul>
+					<div class="navcont-fluid" id="scroll">Scroll: <span id="bscroll">ON</span></div>
+				</div>
+			</div>
 		</nav>
 		<div id="title" class="thumbnail">
-			<img src="img/title.png" alt="title">-
+			<img src="img/title.png" alt="title">
 		</div>
 		<div id="publicidadpc">
-			
+			<img src="img/publicidad.gif" alt="publicidad">
 		</div>
 		<div id="noticias">
 		 		<div class="container-fluid">
 		 			<div class="row" id="destacadas">
 		 				<div class="col-sm-12"> 
 		 					<div class="thumbnail"> 
-		 						<div class="caption"><h3 class="text-center"> ¡La temporada 4 ya esta aqui! </h3></div>
-		 						<img class="img-responsive thumbnail" src="img/new1.jpg">
+		 						<div class="caption"><a href="html1.html"><h3 class="text-center"> ¡Nuevo objeto: JetPack! </h3></a></div>
+		 						<img id="new1" class="img-responsive thumbnail" src="img/new1.jpg" alt="IMG Primera Noticia" data-toggle="modal" data-target="#myModal">
 		 						<div class="caption">
-		 							<p class="text-center"> ¿Ya habeis probado de jugar en la nueva temporada de fortnite? ¿No? ¿A que estas esperando? ¡Descargate este juego totalmente gratuito haciendo click encima de este anuncio! ¡Nuevas armas, nuevos modos de juego, nuevo pase de batalla, nuevos desafios, nuevas apariencias y mucho mas en esta nueva temporada! </p>
-		 							<p class="text-right">1/05/2018</p>
+		 							<p class="text-justify">Ya hace un tiempo que cayo el meteorito, nos dejaron con la boca abierta con las piedras antigravitatorias, pero por si no nos basto, ahora nos sorprenden con un JetPack. Este puede llevarte a las alturas y situarte en un puto mas faboralble para la batalla, pero ojo no se le termine el combustible en pleno vuelo porque si es asi vas a acabar enterrado bajo la tierra.</p>
+		 							<p class="text-right">22/05/2018</p>
 		 						
 		 						</div>
 		 					</div>
 		 				</div>
 		 			</div>
 		 			<div class="row" id="normales">
-		 				<div class="col-sm-6"">
+		 				<div class="col-sm-6">
 		 					<div class="thumbnail"> 
-		 						<div class="caption"><h3 class="text-center"> ¡La temporada 4 ya esta aqui! </h3></div>
-		 						<img class="img-responsive thumbnail" src="img/new1.jpg">
+		 						<div class="caption"><h3 class="text-center"> ¡Nuevo modo: Lucha contra Thanos! </h3></div>
+		 						<img id="new2" class="img-responsive thumbnail" src="img/new2.jpg" alt="IMG Segunda Noticia" data-toggle="modal" data-target="#myModal">
 		 						<div class="caption">
-		 							<p class="text-center"> ¿Ya habeis probado de jugar en la nueva temporada de fortnite? ¿No? ¿A que estas esperando? ¡Descargate este juego totalmente gratuito haciendo click encima de este anuncio! ¡Nuevas armas, nuevos modos de juego, nuevo pase de batalla, nuevos desafios, nuevas apariencias y mucho mas en esta nueva temporada! </p>
+		 							<p class="text-justify"> ¿Has disfrutado de la nueva pelicula de MARVEL? Ya esta aqui Thanos con su brazalete para destruir todos los jugadores, hazte con el y alzate hacia la victoria.Las mismas reglas de siempre, 100 jugadores y un ganador, solo con la diferencia de que uno se podra hacer con el brazalete y obtener los poderes de Thanos. </p>
 		 							<p class="text-right">1/05/2018</p>
 		 						
 		 						</div>
@@ -67,16 +79,41 @@
 		 				<div class="col-sm-6"">
 		 					<div class="thumbnail"> 
 		 						<div class="caption"><h3 class="text-center"> ¡La temporada 4 ya esta aqui! </h3></div>
-		 						<img class="img-responsive thumbnail" src="img/new1.jpg">
+		 						<img id="new3" class="img-responsive thumbnail" src="img/new3.jpg" alt="IMG Tercera Noticia" data-toggle="modal" data-target="#myModal">
 		 						<div class="caption">
-		 							<p class="text-center"> ¿Ya habeis probado de jugar en la nueva temporada de fortnite? ¿No? ¿A que estas esperando? ¡Descargate este juego totalmente gratuito haciendo click encima de este anuncio! ¡Nuevas armas, nuevos modos de juego, nuevo pase de batalla, nuevos desafios, nuevas apariencias y mucho mas en esta nueva temporada! </p>
+		 							<p class="text-justify"> ¿Ya habeis probado de jugar en la nueva temporada de fortnite? ¿No? ¿A que estas esperando? ¡Descargate este juego totalmente gratuito haciendo click encima de este anuncio! ¡Nuevas armas, nuevos modos de juego, nuevo pase de batalla, nuevos desafios, nuevas apariencias y mucho mas en esta nueva temporada! </p>
 		 							<p class="text-right">1/05/2018</p>
-		 						
 		 						</div>
 		 					</div>
 		 				</div>
 		 			</div>	
 				</div>
+				<div class="text-center">
+					<button type="submit" onclick="cargar();" id="bmas">Mas Noticias</button>
+				</div>
+		</div>
+		<footer id="piepag" class="footer">
+			<img src="img/EpicGames.png" alt="Logo EpicGames">
+			<span id="copy" class="glyphicon glyphicon-copyright-mark"> 2018,CopyRight - EpicGames </span>
+			<i class="fa fa-facebook-square"></i>
+			<i class="fa fa-twitter"></i>
+			<a href="https://github.com/Mikelodion/tablonAnuncis"><i class="fa fa-github"></i></a>
+		</footer>
+		<div id="myModal" class="modal fade" role="dialog">
+  			<div class="modal-dialog modal-lg" id="modaldialog">
+    			<div class="modal-content">
+	      			<div class="modal-header">
+	        			<button type="button" class="close" data-dismiss="modal">x</button>
+	        			<h4 class="modal-title">Imagen:</h4>
+	      			</div>
+	      			<div class="modal-body">
+	        			<img id="imgmodal" src="img/new1.jpg" alt="img modal">
+	      			</div>
+	      			<div class="modal-footer">
+	        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      			</div>
+    			</div>
+ 		 	</div>
 		</div>
 	</body>
 </html>

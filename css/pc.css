@@ -5,7 +5,8 @@ body,html {
 	background-position: center fixed; 
  	padding:0px;
 	margin:0px;
-  	z-index: -1;   
+  	z-index: -1;  
+    font-family: 'Sunflower', sans-serif;
 }
 .jumbotron {
     padding-top: 30px;
@@ -48,6 +49,18 @@ body,html {
 #normales{
 	width: 100%;
 }
+#normales1{
+    width: 100%;
+}
+#normales2{
+    width: 100%;
+}
+#normales3{
+    width: 100%;
+}
+#normales4{
+    width: 100%;
+}
 .thumbnail{
 	background-image:url(../img/noticias.jpg);
 	border: 3px solid #1f1e1c;
@@ -55,7 +68,7 @@ body,html {
 }
 h3{
 	color: #ebdec2 !important;
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Anton', sans-serif;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #fff;
@@ -89,11 +102,93 @@ h3{
     font-size: 17px;
 }
 #publicidadpc{
-	background-color: black;
     position: absolute;
     float: right;
-    width: 25%;
+    width: 20%;
     margin-top: 100px;
-    right: 25px;
-    height: 70%;
+    right: 50px;
+    display:block;
+}
+#publicidadpc img{
+    width: 100%;
+}
+#navcont-fluid{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+#scroll{
+    color:white;
+    margin-top: 5px;
+    float: right;
+    padding: 7px 4px;
+    font-size: 20px;
+    line-height: 20px;
+    background-color: #1f1e1c;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+#bscroll{
+    border: 1px solid white;
+    background-color: grey;
+    border-radius: 15px;
+    padding: 0px 10px;
+    box-shadow: 0px 3px grey;
+    color: green;
+}
+#bscroll:hover{
+    cursor: pointer; 
+    background-color: #3c3c3c;
+}
+#cargando{
+    background-color: black;
+    position: fixed;
+    z-index: 2000;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 12%;
+    opacity: 0.9;
+    display: none;
+}
+#bmas{
+    color: white;
+    background-image: url(../img/noticias.jpg);
+    font-size: 20px;
+    border: 2px solid #3c3932;
+    display: none;
+}
+
+.footer{
+    float: left;
+    margin-top: 100px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding: 50px 0 50px;
+    text-align: left;
+    background-color:#232222;
+    color: #8c8c8c;
+}
+
+.footer img{
+    width: 2%;
+    margin-right: 2%;
+}
+#copy{
+    margin-right:2%;
+}
+
+i{
+    margin-right: 1%
+}
+#modaldialog{
+    width: 60%;
+}
+.modal-body{
+    text-align: center;
 }
