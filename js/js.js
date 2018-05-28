@@ -32,10 +32,6 @@ $(document).ready(function(){
 			var id = $(this).attr('id');
 			$("#imgmodal").attr("src","img/"+id+".jpg");
 		});
-		
-		$('.modal').on('shown.bs.modal', function() {
-		$(".modal").css("padding",'0px');
-		});
 });
 
 function doScroll() {
@@ -46,7 +42,7 @@ function doScroll() {
 function cargar(){
 	if (cargado <= 3) {
 		$("#cargando").fadeToggle("slow");
-		$.getJSON("https://rawgit.com/Mikelodion/tablonAnuncis/master/json/news" + cargado + ".json", function(jsonObject){
+		$.getJSON("https://rawgit.com/Mikelodion/tablonAnuncis/final/json/news" + cargado + ".json", function(jsonObject){
 			addRow(jsonObject);
 		});cargado++;
 	}
