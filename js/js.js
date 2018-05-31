@@ -61,7 +61,7 @@ function addRow(json){
 				'<h3 class="text-center">' + noticia.title + '</h3>' + '</div>' +
 				'<img id="new'+((cargado-2)*2+i+4) +'" class="img-responsive thumbnail" src="' + noticia.imgbig + '" alt="Foto Noticia" data-toggle="modal" data-target="#myModal">' +
 				'<div class="caption">'+
-				'<p class="text-center">' + noticia.description + '</p>' +
+				'<p class="text-justify">' + noticia.description + '</p>' +
 				'<p class="text-right">' + noticia.datetime + '</p>' +
 				'</div>' + '</div>' + '</div>');
 	})
