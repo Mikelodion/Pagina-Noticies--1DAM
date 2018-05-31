@@ -104,7 +104,7 @@ h3{
 #publicidadpc{
     position: absolute;
     float: right;
-    width: 20%;
+    width: 24%;
     margin-top: 100px;
     right: 50px;
     display:block;
@@ -191,4 +191,27 @@ i{
 }
 .modal-body{
     text-align: center;
+}
+#bignot{
+
+}
+#thumbx{
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    transition: border .2s ease-in-out;
+    border: 3px solid #000000;
+    border-radius: 40px;
+    background-color: #222222;
+    color: white;
+    font-family: 'Sunflower', sans-serif;
+}
+#thumbx img{
+    margin-left: auto;
+    margin-right: auto;
+}
+#capnot{
+    margin-top: 5%;
 }
