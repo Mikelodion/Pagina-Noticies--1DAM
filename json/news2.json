@@ -1,14 +1,14 @@
 [
       {
-        "title": "Nuevo modo de juego",
+        "title": "Nuevo modo de juego: Solo explosivos",
         "imgbig": "img/new6.jpg",
-        "imgmid": "img/new6.jpg",
-"description": "¿Has disfrutado de la nueva pelicula de MARVEL? Ya esta aqui Thanos con su brazalete para destruir todos los jugadores, hazte con el y alzate hacia la victoria. Las mismas reglas de siempre, 100 jugadores y un ganador, solo con la diferencia de que uno se podra hacer con el brazalete y obtener los poderes de Thanos.",        "datetime": "19/4/2018"
+        "description": "¿Harto de que te venga el tipico arquitecto y te empieze a construir a tal velocidad que ni lo veas? En este modo de juego tiene facil solución, lanza un cohetazo a su estructura y haz que caiga desde las alturas. Pero no te precipites no sea que te lleves un tiro por la culata.",
+        "datetime": "25/4/2018"
       },
       {
-        "title": "Nuevo modo de juego",
+        "title": "Nuevo modo de juego: 50 vs 50",
         "imgbig": "img/new7.jpg",
-        "imgmid": "img/new7.jpg",
-"description": "¿Has disfrutado de la nueva pelicula de MARVEL? Ya esta aqui Thanos con su brazalete para destruir todos los jugadores, hazte con el y alzate hacia la victoria. Las mismas reglas de siempre, 100 jugadores y un ganador, solo con la diferencia de que uno se podra hacer con el brazalete y obtener los poderes de Thanos.",        "datetime": "20/4/2018"
+        "description": "¿Cansado de morir cada dos por tres?¿Juegas con un escuadron que no es capaz ni de ganar una partida? No te preocupes mas, EpicGames nos ha traido este nuevo modo de juego para que los mas malos sean capaces de ganar alguna partida con ayuda de 49 personas mas en el equipo. Mas 'airdrops', mas loot, mas todo...",        
+        "datetime": "14/4/2018"
       }
 ]
